@@ -3224,11 +3224,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_example_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
+      "projectUniqueName": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
       "projectName": "MyConsoleApp",
-      "projectPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_example_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
+      "projectPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Avell\\.nuget\\packages\\",
-      "outputPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_example_dotnetcoresqlite\\MyConsoleApp\\obj\\",
+      "outputPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
