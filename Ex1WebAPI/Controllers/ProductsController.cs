@@ -108,6 +108,23 @@ namespace Ex1WebAPI.Controllers
             
         }
 
+        /// <summary>
+        /// Delete
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
+        {
+            var p = _context.ProductItems.FirstOrDefault(pr => pr.Id == id);
+            if (p == null) return NotFound();
+            this._context.ProductItems.Remove(p);
+            this._context.SaveChanges();
+
+            // Delete Response is 204 (No Content)
+            return new NoContentResult();
+        }
+
 
 
     }
