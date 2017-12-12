@@ -3224,9 +3224,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
-      "projectName": "MyConsoleApp",
-      "projectPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\MyConsoleApp.csproj",
+      "projectUniqueName": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\Ex0ConsoleApp.csproj",
+      "projectName": "Ex0ConsoleApp",
+      "projectPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\Ex0ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\Avell\\.nuget\\packages\\",
       "outputPath": "E:\\gdrive\\H-References\\H-Repositories\\repo_simple_dotnetcoresqlite\\MyConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
