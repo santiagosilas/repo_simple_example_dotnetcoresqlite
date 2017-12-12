@@ -17,6 +17,6 @@ namespace Ex1WebAPI.Models
         {
 
         }
-        public DbSet<Product> TodoItems { get; set; }
+        public DbSet<Product> ProductItems { get; set; }
     }
 }
