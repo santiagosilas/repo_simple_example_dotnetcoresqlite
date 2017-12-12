@@ -23,11 +23,19 @@ namespace Ex1WebAPI.Controllers
         /// <param name="context"></param>
         public ProductsController(StoreContext context)
         {
+            this._context = context;
             if(this._context.ProductItems.Count() == 0)
             {
                 this._context.ProductItems.Add(new Product { Name = "Abacate"});
                 this._context.SaveChanges();
             }
         }
+
+        [HttpGet]
+        public IEnumerable<Product> GetAll()
+        {
+            return this._context.ProductItems.ToList();
+        }
+
     }
 }
