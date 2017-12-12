@@ -33,8 +33,9 @@ namespace Ex1WebAPI.Controllers
 
         /// <summary>
         /// GET /api/products
+        /// [HttpGet] attribute specifies an HTTP GET method
         /// </summary>
-        /// <returns></returns>
+        /// <returns>IEnumerable<Product></returns>
         [HttpGet]
         public IEnumerable<Product> GetAll()
         {
@@ -43,9 +44,11 @@ namespace Ex1WebAPI.Controllers
 
         /// <summary>
         /// GET /api/products/{id}
+        /// {id}: a placeholder variable for the ID
+        /// Name = "GetTodo": To create a named route (useful to enable the app to create an HTTP link)
         /// </summary>
         /// <param name="Id"></param>
-        /// <returns></returns>
+        /// <returns>IactionResult: it represents a wide range of return types</returns>
         [HttpGet("{id}", Name = "GetProduct")]
         public IActionResult GetById(long Id)
         {
@@ -53,8 +56,9 @@ namespace Ex1WebAPI.Controllers
             var product = this._context.ProductItems.FirstOrDefault(p => p.Id == Id);
 
             if (product == null)
-                return NotFound();
+                return NotFound(); // 404 error (HTTP 404 response)
 
+            // Returns 200 with a JSON response body
             return new ObjectResult(product);
         }
 
