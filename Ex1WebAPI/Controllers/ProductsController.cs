@@ -62,5 +62,53 @@ namespace Ex1WebAPI.Controllers
             return new ObjectResult(product);
         }
 
+        /// <summary>
+        /// [HttpPost]: HTTP Post Method
+        /// [FromBody]: Get the value from the body of the HTTP request
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult Create([FromBody] Product product)
+        {
+            if (product == null)
+                return BadRequest();
+
+            this._context.ProductItems.Add(product);
+            this._context.SaveChanges();
+
+            // Returns a 201 response (the standard response for an HTTP POST method that creates 
+            // a new resource on the server)
+            // Uses the "GetProduct" named route to create the URL. 
+            return CreatedAtRoute("GetProduct", new { id = product.Id }, product);
+        }
+
+        /// <summary>
+        /// Update uses HTTP PUT
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpPut("{id}")]
+        public IActionResult Update(long id, [FromBody] Product product)
+        {
+            if(product == null || product.Id != id)
+                return BadRequest();
+            var p = this._context.ProductItems.FirstOrDefault(pr => pr.Id == id);
+            if (p == null)
+                return NotFound();
+            p.IsAvailable = product.IsAvailable;
+            p.Name = product.Name;
+
+            this._context.ProductItems.Update(p);
+            this._context.SaveChanges();
+
+            // The response is 204 (No Content)
+            return new NoContentResult();
+            
+        }
+
+
+
     }
 }
