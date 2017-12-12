@@ -31,10 +31,31 @@ namespace Ex1WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// GET /api/products
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<Product> GetAll()
         {
             return this._context.ProductItems.ToList();
+        }
+
+        /// <summary>
+        /// GET /api/products/{id}
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns></returns>
+        [HttpGet("{id}", Name = "GetProduct")]
+        public IActionResult GetById(long Id)
+        {
+            // Obtém o produto
+            var product = this._context.ProductItems.FirstOrDefault(p => p.Id == Id);
+
+            if (product == null)
+                return NotFound();
+
+            return new ObjectResult(product);
         }
 
     }
