@@ -10,4 +10,6 @@ Step 3: Create the database context
 
 Step 4: Register the database context
 	* The database context is registred with dependency injection
+
+Step 5: Create a Controller
 	

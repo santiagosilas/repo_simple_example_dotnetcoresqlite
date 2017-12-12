@@ -1,0 +1,11 @@
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\bin\Debug\netcoreapp2.0\Ex1WebAPI.deps.json
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\bin\Debug\netcoreapp2.0\Ex1WebAPI.runtimeconfig.json
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\bin\Debug\netcoreapp2.0\Ex1WebAPI.runtimeconfig.dev.json
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\bin\Debug\netcoreapp2.0\Ex1WebAPI.dll
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\bin\Debug\netcoreapp2.0\Ex1WebAPI.pdb
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.csprojResolveAssemblyReference.cache
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.csproj.CoreCompileInputs.cache
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.AssemblyInfoInputs.cache
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.AssemblyInfo.cs
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.dll
+E:\gdrive\H-References\H-Repositories\repo_simple_dotnetcoresqlite\Ex1WebAPI\obj\Debug\netcoreapp2.0\Ex1WebAPI.pdb
