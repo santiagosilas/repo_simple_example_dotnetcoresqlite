@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex0ConsoleApp", "MyConsoleApp\Ex0ConsoleApp.csproj", "{54406C6A-202D-4922-87FC-F3E6A0935435}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loja.Domain", "Loja.Domain\Loja.Domain.csproj", "{BD6B1D3F-E0AE-448F-8C7F-BDBC456F45DE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1WebAPI", "Ex1WebAPI\Ex1WebAPI.csproj", "{015956D8-08A5-44B7-823F-978F16B60B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex0ConsoleInMemoryDB", "Ex0ConsoleInMemoryDB\Ex0ConsoleInMemoryDB.csproj", "{793BFB29-6DCE-4C72-B33F-E1976E3435AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex0ConsoleApp", "MyConsoleApp\Ex0ConsoleApp.csproj", "{E7592038-8D31-494E-8F42-F6F8D276D917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex0ConsoleSqliteDB", "Ex0ConsoleSqliteDB\Ex0ConsoleSqliteDB.csproj", "{67F77C14-3F5D-4241-B051-97A721673503}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExWebAPISqlite", "ExWebAPISqlite\ExWebAPISqlite.csproj", "{467268AE-E299-49CC-A982-D59503DDA33C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{54406C6A-202D-4922-87FC-F3E6A0935435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54406C6A-202D-4922-87FC-F3E6A0935435}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54406C6A-202D-4922-87FC-F3E6A0935435}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54406C6A-202D-4922-87FC-F3E6A0935435}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD6B1D3F-E0AE-448F-8C7F-BDBC456F45DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD6B1D3F-E0AE-448F-8C7F-BDBC456F45DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD6B1D3F-E0AE-448F-8C7F-BDBC456F45DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD6B1D3F-E0AE-448F-8C7F-BDBC456F45DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{015956D8-08A5-44B7-823F-978F16B60B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{015956D8-08A5-44B7-823F-978F16B60B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{015956D8-08A5-44B7-823F-978F16B60B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{015956D8-08A5-44B7-823F-978F16B60B58}.Release|Any CPU.Build.0 = Release|Any CPU
-		{793BFB29-6DCE-4C72-B33F-E1976E3435AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{793BFB29-6DCE-4C72-B33F-E1976E3435AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{793BFB29-6DCE-4C72-B33F-E1976E3435AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{793BFB29-6DCE-4C72-B33F-E1976E3435AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67F77C14-3F5D-4241-B051-97A721673503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67F77C14-3F5D-4241-B051-97A721673503}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67F77C14-3F5D-4241-B051-97A721673503}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67F77C14-3F5D-4241-B051-97A721673503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7592038-8D31-494E-8F42-F6F8D276D917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7592038-8D31-494E-8F42-F6F8D276D917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7592038-8D31-494E-8F42-F6F8D276D917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7592038-8D31-494E-8F42-F6F8D276D917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467268AE-E299-49CC-A982-D59503DDA33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467268AE-E299-49CC-A982-D59503DDA33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467268AE-E299-49CC-A982-D59503DDA33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467268AE-E299-49CC-A982-D59503DDA33C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
